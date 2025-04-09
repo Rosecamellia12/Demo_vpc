@@ -18,8 +18,8 @@ resource "aws_security_group" "my_sg_public" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    # cidr_blocks = ["103.31.142.93/32"]   // ssh from your ip only
-	cidr_blocks = ["0.0.0.0/0"]
+     cidr_blocks = ["103.6.186.231/32"]   // ssh from your ip only
+	# cidr_blocks = ["0.0.0.0/0"]
 	}
 
   egress {
